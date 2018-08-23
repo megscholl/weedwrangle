@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from './pages/Nav.js'
 import Video from './pages/Video.js'
+import Map from './pages/Map.js'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
 
        <Nav />
        <Video />
+       <Map />
 
       </div>
     );

@@ -4,7 +4,7 @@ import './Map.css'
  
 /* credit for map goes to react-usa-map at https://www.npmjs.com/package/react-usa-map */
 
-class App extends Component {
+class Map extends Component {
   /* mandatory */
   mapHandler = (event) => {
     alert(event.target.dataset.name);
@@ -19,4 +19,4 @@ class App extends Component {
   }
 }
  
-export default App;
+export default Map;
