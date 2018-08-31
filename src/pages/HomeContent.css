@@ -25,5 +25,6 @@ h2 {
 }
 
 .main-images img {
+    margin-left: 2rem;
     padding: 14px 35px;
 }
