@@ -3,6 +3,10 @@
     margin:0px;
 }
 
+.navbar {
+  overflow: hidden;
+}
+
 .ww-h1 {
     color: #375b2f;
     padding: 20px;
