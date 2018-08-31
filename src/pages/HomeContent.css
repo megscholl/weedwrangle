@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200');
+
 .main-p-content {
     padding: 3rem;
     text-align: left;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #065D1F;
+    font-size: 40px;
+    padding-bottom: 2rem;
 }
