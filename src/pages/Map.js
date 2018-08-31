@@ -7,7 +7,14 @@ import './Map.css'
 class Map extends Component {
   /* mandatory */
   mapHandler = (event) => {
-    alert(event.target.dataset.name);
+    console.log("event target datasets: ", event.target.dataset.name);
+
+
+    // THIS IS WHERE THE MANIPUATION OF THE MAP WILL TAKE PLACE //
+    if(event.target.dataset.name === "MA") {
+      alert("YOU CHOSE MASS"); 
+    } else(alert("nope"))
+    
   };
  
   render() {
