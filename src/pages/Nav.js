@@ -18,7 +18,7 @@ class Nav extends Component {
             </nav>
 
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={logo} className="App-logo" alt="Weed Wrangle logo" />
             </header>
             </div>
         );
