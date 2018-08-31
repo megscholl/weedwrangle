@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200');
+
 .main-p-content {
     padding: 3rem;
     text-align: left;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #065D1F;
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #065D1F;
+    font-size: 30px;
+}
+
+.radius-imgs {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.main-images img {
+    padding: 14px 35px;
 }

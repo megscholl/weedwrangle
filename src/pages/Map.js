@@ -20,6 +20,7 @@ class Map extends Component {
   render() {
     return (
       <div className="App">
+        <h2>Find a Weed Wrangle Partner Location to Volunteer <br />and Learn More about Invasive Species in the US</h2>
         <USAMap onClick={this.mapHandler} />
       </div>
     );
