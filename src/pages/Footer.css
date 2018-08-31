@@ -1,0 +1,21 @@
+.footer {
+    margin-top: 2rem;
+    padding-top: 3rem;
+    background-color: #D2E4D3;
+}
+
+.gca-image {
+    width: 100px;
+    /* float: right; */
+}
+
+.footer-p1 {
+    display: inline-block;
+    width: 350px;
+    font-size: 10px;
+}
+
+.rh-logo {
+    float: right;
+    width: 200px;
+}
