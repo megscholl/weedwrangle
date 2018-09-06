@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
-import Nav from './pages/Nav.js'
-import Home from './pages/Home.js'
-import Footer from './pages/Footer.js'
+import { BrowserRouter, Route } from "react-router-dom"
+
+import Main from './pages/Main.js'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
 
+      <BrowserRouter>
       
-       <Nav />
-       <Home />
-       <Footer />
+        <Route path="/" component={Main} />
+      
+      </BrowserRouter>
 
-      </div>
     );
   }
 }
