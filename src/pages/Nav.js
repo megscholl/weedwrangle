@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from "react-router-dom"
 import './Nav.css'
 import logo from '../images/weedwrangle/ww_logo.png';
 
@@ -8,13 +9,16 @@ class Nav extends Component {
             <div className="navbar">       
             
             <nav class="topnav">
-                <a class="active" href="#home">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-                <a href="#about">Press</a>
-                <a href="#about">Social Media</a>
-                <a href="#about">Resources</a>
+                <NavLink to="/">Home</NavLink>
+
+                <NavLink to="/about">About</NavLink>
+                
+                <NavLink to="/contact">Contact</NavLink>
+                
+                <NavLink to="/press">Press</NavLink>
+                
+                <NavLink to="/resources">Resources</NavLink>
+                
             </nav>
 
             <header className="App-header">
