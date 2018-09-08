@@ -11,3 +11,31 @@ path {
   .map-h1 {
     font-size: 35px;
   }
+
+  .TN {
+    fill: rgb(99, 150, 10) !important;
+  }
+
+  .MI {
+    fill: rgb(99, 150, 10) !important;
+  }
+
+  .OR {
+    fill: rgb(99, 150, 10) !important;
+  }
+
+  .TX {
+    fill: rgb(99, 150, 10) !important;
+  }
+
+  .LO {
+    fill: rgb(99, 150, 10) !important;
+  }
+
+  .VA {
+    fill: rgb(99, 150, 10) !important;
+  }
+
+  .FL {
+    fill: rgb(99, 150, 10) !important;
+  }
