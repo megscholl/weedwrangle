@@ -12,30 +12,48 @@ path {
     font-size: 35px;
   }
 
+.state {
+  cursor: default !important;
+}
+
   .TN {
+    
     fill: rgb(99, 150, 10) !important;
+    cursor: pointer !important;
   }
 
-  .MI {
+  .MS {
+    
     fill: rgb(99, 150, 10) !important;
+    cursor: pointer !important;
   }
 
   .OR {
+    
     fill: rgb(99, 150, 10) !important;
+    cursor: pointer !important;
   }
 
   .TX {
+    
     fill: rgb(99, 150, 10) !important;
+    cursor: pointer !important;
   }
 
-  .LO {
+  .LA {
+    
     fill: rgb(99, 150, 10) !important;
+    cursor: pointer !important;
   }
 
   .VA {
+    
     fill: rgb(99, 150, 10) !important;
+    cursor: pointer !important;
   }
 
   .FL {
+    
     fill: rgb(99, 150, 10) !important;
+    cursor: pointer !important;
   }
