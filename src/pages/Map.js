@@ -7,11 +7,12 @@ import './Map.css'
 class Map extends Component {
   /* mandatory */
   mapHandler = (event) => {
-    // console.log("event target datasets: ", event.target.dataset.name);
+    console.log("event target datasets: ", event.target.dataset.name);
 
 
     // THIS IS WHERE THE MANIPUATION OF THE MAP WILL TAKE PLACE //
     if(event.target.dataset.name === "LA") {
+      // element.setAttribute("alt","Louisiana");
       alert("YOU CHOSE LOUISIANA"); 
     } else if(event.target.dataset.name === "MS") {
       alert("YOU CHOSE MISSISSIPPI"); 
