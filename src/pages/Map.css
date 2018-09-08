@@ -16,44 +16,61 @@ path {
   cursor: default !important;
 }
 
+path:hover {
+  opacity: 1 !important;
+  cursor: pointer;
+}
+
   .TN {
-    
     fill: rgb(99, 150, 10) !important;
     cursor: pointer !important;
+    opacity: .5 !important;
   }
 
   .MS {
     
+    
     fill: rgb(99, 150, 10) !important;
     cursor: pointer !important;
+    opacity: .5 !important;
   }
 
   .OR {
     
+    
     fill: rgb(99, 150, 10) !important;
     cursor: pointer !important;
+    opacity: .5 !important;
   }
 
   .TX {
     
+    
     fill: rgb(99, 150, 10) !important;
     cursor: pointer !important;
+    opacity: .5 !important;
   }
 
   .LA {
     
+    
     fill: rgb(99, 150, 10) !important;
     cursor: pointer !important;
+    opacity: .5 !important;
   }
 
   .VA {
     
+    
     fill: rgb(99, 150, 10) !important;
     cursor: pointer !important;
+    opacity: .5 !important;
   }
 
   .FL {
     
+    
     fill: rgb(99, 150, 10) !important;
     cursor: pointer !important;
+    opacity: .5 !important;
   }
