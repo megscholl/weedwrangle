@@ -9,7 +9,7 @@ class Home extends Component {
       return (
         <div>
   
-         <h1>Weed Wrangle is a Volunteer-Led Invasive Plant Removal Initiative</h1>
+         <h1 className="ww-h1">Weed Wrangle is a Volunteer-Led Invasive Plant Removal Initiative</h1>
          <Video />
          <MainContent />
          <Map />

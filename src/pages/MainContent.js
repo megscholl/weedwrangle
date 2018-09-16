@@ -4,6 +4,7 @@ import honeysuckle from '../images/weedwrangle/honeysuckle.jpg'
 import loosestrife from '../images/weedwrangle/purple-loosestrife.jpg'
 import ivy from '../images/weedwrangle/english-ivy.jpg'
 
+
 class MainContent extends Component {
     render() {
         return (
@@ -16,6 +17,11 @@ class MainContent extends Component {
                 <p>
                 Supervised by an experts in invasive weed management, Weed Wrangle&reg;-volunteers will learn, practice, and begin a habit of maintaining an area free of invasive plants and encourage replanting with natives in removal areas. By engaging our neighbors and challenging them to take action in their own spaces, we hope to create a movement that will have the greatest impact on the invasive plant population.
                 </p>
+
+                <br />
+
+                <a href="/documents/Project_Info.pdf" download>Join Us!</a><br/>
+
 
                 <div className="main-images">
                 <img src={honeysuckle} alt="honeysuckle" className="radius-imgs"/>

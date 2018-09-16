@@ -1,4 +1,6 @@
-
+.Map {
+  text-align: center;
+}
 
 path {
     pointer-events: all;
