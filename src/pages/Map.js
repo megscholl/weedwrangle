@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import USAMap from "react-usa-map";
 import './Map.css'
+// import { Link } from "react-router-dom"
  
 /* credit for map goes to react-usa-map at https://www.npmjs.com/package/react-usa-map */
 
@@ -13,17 +14,32 @@ class Map extends Component {
     // THIS IS WHERE THE MANIPUATION OF THE MAP WILL TAKE PLACE //
     if(event.target.dataset.name === "LA") {
       // element.setAttribute("alt","Louisiana");
-      alert("YOU CHOSE LOUISIANA"); 
+
+         console.log("YOU CHOSE LOUISIANA"); 
+
+            
+       
     } else if(event.target.dataset.name === "MS") {
-      alert("YOU CHOSE MISSISSIPPI"); 
+
+         console.log("YOU CHOSE MISSISSIPPI"); 
+      
     } else if(event.target.dataset.name === "OR") {
-      alert("YOU CHOSE OREGON"); 
+
+         console.log("YOU CHOSE OREGON"); 
+
     } else if(event.target.dataset.name === "TN") {
-      alert("YOU CHOSE TENNESSEE"); 
+
+         console.log("YOU CHOSE TENNESSEE"); 
+
     } else if(event.target.dataset.name === "TX") {
-      alert("YOU CHOSE TEXAS"); 
+
+         console.log("YOU CHOSE TEXAS"); 
+
     }  else if(event.target.dataset.name === "VA") {
-      alert("YOU CHOSE VIRGINIA"); 
+
+         console.log("YOU CHOSE VIRGINIA"); 
+      
+
     } else if(console.log("error: state chosen does not partner with the weed wrangle yet"));
     
   };

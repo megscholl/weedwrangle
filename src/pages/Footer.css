@@ -1,7 +1,12 @@
 .footer {
+    /* display: inline-block; */
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
     margin-top: 2rem;
     padding-top: 3rem;
     background-color: #D2E4D3;
+    padding-bottom: 1rem;
 }
 
 .gca-image {

@@ -2,13 +2,13 @@ import React from 'react'
 import Footer from '../Footer.js'
 import '../Footer.css'
 // import AboutCarousel from './Carousel.js'
-import {Glen} from './IMG_129.jpg'
+import {Glen} from './IMG_1028.JPG'
 
 const About = () =>{
   return ( 
     <div>
     
-    <img src={Glen} alt="Glen Leven" />
+    <img src={Glen} alt="Glen Leven" width="500px"/>
 
 
 

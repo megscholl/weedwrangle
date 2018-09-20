@@ -5,4 +5,7 @@
 
 .error-page {
     background-color: #F7F9FB;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
