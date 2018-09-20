@@ -3,7 +3,8 @@
 .main-p-content {
     /* padding: 1rem; */
     text-align: left;
-    margin: 2rem;
+    margin-top: 1rem;
+    margin-right: 4rem;
 }
 
 h1 {
@@ -28,4 +29,15 @@ h2 {
 .main-images img {
     margin-left: 2rem;
     padding: 14px 35px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.join-link {
+    font-size: 22px;
+    color: #065D1F;
+}
+
+.join-link:hover {
+    color: green;
 }
