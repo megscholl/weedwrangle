@@ -5,7 +5,7 @@ import './Footer.css'
 class Footer extends Component {
     render() {
       return (
-        <div>
+        <div className="absolute-footer">
             <footer className="footer">
 
 

@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from '../Footer.js'
 
 const Oregon = () =>{
   return ( 
     <div>
-      <p>Oregon</p>
+      <h1>Oregon</h1>
+
+      <Footer />
     </div>
   )
 }

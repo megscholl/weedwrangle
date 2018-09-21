@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from '../Footer.js'
 
 const Texas = () =>{
   return ( 
     <div>
-      <p>Texas</p>
+      <h1>Texas</h1>
+
+      <Footer />
     </div>
   )
 }
