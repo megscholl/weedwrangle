@@ -31,7 +31,7 @@
   --border-color: #eee;
   /* --bg-color: #f9f9f9; */
   /* --neutral-color: #fff; */
-  padding-bottom: 6rem;
+  /* padding-bottom: 6rem; */
 }
 
 
@@ -87,7 +87,9 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .row-middle {
@@ -121,7 +123,7 @@ main {
 .calendar {
   display: block;
   position: relative;
-  width: 80%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   background: var(--neutral-color);
