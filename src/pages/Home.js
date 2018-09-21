@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Video from './Video.js'
 import Map from './Map.js'
 import MainContent from './MainContent.js'
-import States from './States'
+// import States from './States'
 
 class Home extends Component {
     render() {
@@ -13,7 +13,7 @@ class Home extends Component {
          <Video />
          <MainContent />
          <Map />
-         <States />
+         
   
         </div>
       );

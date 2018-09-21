@@ -7,12 +7,14 @@ import { Redirect,
    } from "react-router-dom"
 
 // // STATES FROM MAP
-// import Tennessee from'./states/Tennessee'
+import Tennessee from'./states/Tennessee'
 import Louisiana from'./states/Louisiana'
-// import Texas from'./states/Texas'
-// import Oregon from'./states/Oregon'
-// import Virginia from'./states/Virginia'
-// import Mississippi from'./states/Mississippi'
+import Texas from'./states/Texas'
+import Oregon from'./states/Oregon'
+import Virginia from'./states/Virginia'
+import Mississippi from'./states/Mississippi'
+import Florida from'./states/Florida'
+
  
 /* credit for map goes to react-usa-map at https://www.npmjs.com/package/react-usa-map */
 
@@ -21,14 +23,39 @@ import Louisiana from'./states/Louisiana'
 class Map extends Component {
   /* mandatory */
   mapHandler = (event) => {
+    event.preventDefault();
     console.log("event target datasets: ", event.target.dataset.name);
   };
 
-    statesCustomConfig = (event) => {
+    statesCustomConfig = () => {
       return {
         "LA": {
 
           clickHandler: (event) => {return(<Redirect to="/la" component={Louisiana} exact></Redirect>)}
+        },
+        "TN": {
+
+          clickHandler: (event) => {return(<Redirect to="/tn" component={Tennessee} exact></Redirect>)}
+        },
+        "OR": {
+
+          clickHandler: (event) => {return(<Redirect to="/or" component={Oregon} exact></Redirect>)}
+        },
+        "TX": {
+
+          clickHandler: (event) => {return(<Redirect to="/tx" component={Texas} exact></Redirect>)}
+        },
+        "MS": {
+
+          clickHandler: (event) => {return(<Redirect to="/ms" component={Mississippi} exact></Redirect>)}
+        },
+        "VA": {
+
+          clickHandler: (event) => {return(<Redirect to="/va" component={Virginia} exact></Redirect>)}
+        },
+        "FL": {
+
+          clickHandler: (event) => {return(<Redirect to="/fl" component={Florida} exact></Redirect>)}
         }
       };
     };
