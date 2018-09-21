@@ -11,7 +11,7 @@ import Image from './IMG_129.jpg'
 const About = () =>{
   return ( 
     <div>
-    
+    <h1>ABOUT US</h1>
     <div className="images">
       <img src={Glen} alt="Glen Leven" width="500px"/>
       <img src={Ladies} alt="Ladies" width="444.5px" className="middle-img"/>
