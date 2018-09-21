@@ -20,6 +20,8 @@ class Nav extends Component {
                 
                 <NavLink to="/resources">Resources</NavLink>
                 
+                <NavLink to="/calendar">Calendar</NavLink>
+                
             </nav>
 
             <header className="App-header">
