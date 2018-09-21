@@ -31,31 +31,31 @@ class Map extends Component {
       return {
         "LA": {
 
-          clickHandler: (event) => {return(<Redirect to="/la" component={Louisiana} exact></Redirect>)}
+          clickHandler: (event) => {return(<Redirect to="/la" component={Louisiana} exact />)}
         },
         "TN": {
 
-          clickHandler: (event) => {return(<Redirect to="/tn" component={Tennessee} exact></Redirect>)}
+          clickHandler: (event) => {return(<Redirect to="/tn" component={Tennessee} exact />)}
         },
         "OR": {
 
-          clickHandler: (event) => {return(<Redirect to="/or" component={Oregon} exact></Redirect>)}
+          clickHandler: (event) => {return(<Redirect to="/or" component={Oregon} exact />)}
         },
         "TX": {
 
-          clickHandler: (event) => {return(<Redirect to="/tx" component={Texas} exact></Redirect>)}
+          clickHandler: (event) => {return(<Redirect to="/tx" component={Texas} exact />)}
         },
         "MS": {
 
-          clickHandler: (event) => {return(<Redirect to="/ms" component={Mississippi} exact></Redirect>)}
+          clickHandler: (event) => {return(<Redirect to="/ms" component={Mississippi} exact />)}
         },
         "VA": {
 
-          clickHandler: (event) => {return(<Redirect to="/va" component={Virginia} exact></Redirect>)}
+          clickHandler: (event) => {return(<Redirect to="/va" component={Virginia} exact />)}
         },
         "FL": {
 
-          clickHandler: (event) => {return(<Redirect to="/fl" component={Florida} exact></Redirect>)}
+          clickHandler: (event) => {return(<Redirect to="/fl" component={Florida} exact />)}
         }
       };
     };

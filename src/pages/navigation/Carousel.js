@@ -1,9 +1,10 @@
+
+import React, { Component } from 'react';
 import Glen from './GlenLeven.jpg'
 import Group from './IMG_129.jpg'
 import Girls from './IMG_1028.JPG'
 
 
-import React, { Component } from 'react';
 import {
   Carousel,
   CarouselItem,

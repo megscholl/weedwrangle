@@ -1,5 +1,12 @@
+.absolute-footer {
+
+    position:absolute;
+   /* bottom:0; */
+    width:100%;
+}
+
 .footer {
-    /* display: inline-block; */
+
     margin-right: auto;
     margin-left: auto;
     text-align: center;
