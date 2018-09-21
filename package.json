@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.0.2",
+    "date-fns": "^1.29.0",
     "downloadbutton": "^1.0.0",
     "react": "^16.5.1",
     "react-bootstrap": "^0.32.1",

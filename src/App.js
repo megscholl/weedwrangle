@@ -5,6 +5,7 @@ import Main from './pages/Main.js'
 import About from './pages/navigation/About.js'
 import Press from './pages/navigation/Press.js'
 import Contact from './pages/navigation/Contact.js'
+import Calendar from './pages/navigation/Calendar.js'
 
 // STATES FROM MAP
 import Tennessee from'./pages/states/Tennessee'
@@ -30,6 +31,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/press" component={Press} />
             <Route path="/contact" component={Contact} />
+            <Route path="/calendar" component={Calendar} />
             <Route path="/tn" component={Tennessee} />
             <Route path="/la" component={Louisiana} />
             <Route path="/tx" component={Texas} />
