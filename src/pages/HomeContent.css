@@ -27,9 +27,9 @@ h2 {
 }
 
 .main-images img {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; */
     margin-left: 2rem;
     padding: 14px 35px;
     margin-top: 1rem;
