@@ -1,0 +1,58 @@
+
+
+.tn-section-1 {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tn-pg-1 {
+    width: 40%;
+}
+
+.honeysuckle {
+    float: right;
+    width: 400px;
+    margin-right: 10rem;
+    
+    -webkit-transition: width 5s;
+      -moz-transition: width 5s;
+        -o-transition: width 5s;
+         transition: width 5s;
+}
+
+.ivy {
+    /* position: absolute; */
+    width: 200px;
+    padding-top: 2rem;
+    margin-left: 10rem;
+
+    -webkit-transition: width 5s;
+      -moz-transition: width 5s;
+        -o-transition: width 5s;
+         transition: width 5s;
+}
+
+.invasive-img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.honeysuckle:hover {
+    /* position:absolute; */
+    width: 420px;
+    
+}
+
+.ivy:hover {
+    width: 210px;
+}
+
+
+h4 {
+    text-align: center;
+    margin-left: 50rem;
+    padding-bottom: 3rem;
+    color: rgb(127, 139, 127);
+    font-weight: bold;
+}
