@@ -89,4 +89,4 @@ const Tennessee = () =>{
 }
 
 
-export default {Tennessee};
+export default Tennessee;
