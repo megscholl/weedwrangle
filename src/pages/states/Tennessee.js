@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Footer.js'
 import './states.css'
 import { Card, Image } from 'semantic-ui-react'
+import { Link } from "react-router-dom"
 
 
 import Honeysuckle from './honeysuckle.png'
@@ -14,7 +15,7 @@ const Tennessee = () =>{
   return ( 
     <div>
         <div className="tn">
-          <h1>Tennessee</h1>  
+          <h1>Tennessee is full of beautiful, native wildlife.</h1>  
 
             <div className="tn-section-1">
                 <p className="tn-pg-1">However, many invasive plants are taking over the spaces where native plants and species should thrive. Join our cause to rid Tennessee's beautiful lands of invasive plants. 
@@ -26,7 +27,7 @@ const Tennessee = () =>{
                 <img src={Honeysuckle} alt="honeysuckle" className="honeysuckle"/>
             </div>
 
-            <h4>Interested in Joining the Cause? Sign up<br /> to host a Weed Wrangle event in your city!</h4>
+            <h4><Link to="">Interested in Joining the Cause? Sign up<br /> to host a Weed Wrangle event in your city!</Link></h4>
 
 
 
