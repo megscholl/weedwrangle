@@ -7,7 +7,7 @@
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .tn-pg-1 {
@@ -23,13 +23,18 @@
 
 Button {
     margin-left: 40%;
-    background-color: rgb(146, 201, 149);
+    background-color: rgb(186, 228, 188);
     width: 25%;
     text-align: center;
     padding: 1rem;
     font-size: 22px;
     color: rgb(0, 0, 0);
     font-weight: bold;
+}
+
+Button:hover {
+    cursor: pointer;
+    opacity: .8;
 }
 
 .invasive-img {
@@ -59,7 +64,7 @@ h3 {
 
 
 .location-cards {
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
     /* margin: 2rem; */
     padding: 1rem 3rem 3rem 3rem;
     display: flex;

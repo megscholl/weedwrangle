@@ -34,6 +34,8 @@ const Tennessee = () =>{
                 <div className="button-div"><Button>Sign up to host a Weed Wrangle event in your city!</Button></div>
             </div>
 
+
+
             <h1>Weed Wrangle Events and Locations in Tennessee</h1>
             <div className="location-cards">
 
