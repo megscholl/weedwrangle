@@ -1,23 +1,24 @@
-
+@import url('https://fonts.googleapis.com/css?family=Muli:800');
 
 .tn-section-1 {
-    background-image: url('./tennessee/trail.jpg');
-    opacity: 2%;
+    background-image: url('./tennessee/trail_cropped.png');
+    opacity: .8;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
     margin-bottom: 2rem;
 }
 
 .tn-pg-1 {
-    /* padding-top: 5rem; */
-    /* width: 50%; */
+    font-family: 'Muli', sans-serif;
     padding: 3rem 4rem 1rem 3rem;
     margin-bottom: 3rem;
-    font-weight: bold;
-    color: white;
-    font-size: 45px;
+    text-align: left;
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 50px;
 }
 
 Button {
@@ -29,10 +30,58 @@ Button {
     font-size: 22px;
     color: rgb(0, 0, 0);
     font-weight: bold;
+}
 
+.invasive-img {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.right-honey {
+    margin-bottom: 10rem;
+}
+
+.honeysuckle:hover {
+    /* position:absolute; */
+    width: 420px;
+    
 }
 
 
+h3 {
+    text-align: center;
+    font-size: 32px;
+    /* background-color: #D2E4D3; */
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+
+
+.location-cards {
+    /* margin-top: 1rem; */
+    /* margin: 2rem; */
+    padding: 1rem 3rem 3rem 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cards {
+    /* position: relative; */
+    border: 2px solid rgb(127, 139, 127);
+    padding: 2rem;
+}
+
+.cards:hover {
+    /* position: relative; */
+    border: 3px solid rgb(31, 139, 31);
+    padding: 2rem;
+}
+
+
+
+/* NOT BEING USED 
 /*.honeysuckle {
     float: right;
     width: 400px;
@@ -60,50 +109,3 @@ Button {
 /* .ivy:hover {
     width: 210px;
 } */
-
-.invasive-img {
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.right-honey {
-    margin-bottom: 10rem;
-}
-
-.honeysuckle:hover {
-    /* position:absolute; */
-    width: 420px;
-    
-}
-
-
-h3 {
-    text-align: center;
-    font-size: 32px;
-    background-color: #D2E4D3;
-    padding: 2rem 0rem 2rem 0rem;
-}
-
-
-
-.location-cards {
-    /* margin-top: 1rem; */
-    /* margin: 2rem; */
-    padding: 1rem 3rem 3rem 3rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-.cards {
-    /* position: relative; */
-    border: 2px solid rgb(127, 139, 127);
-    padding: 2rem;
-}
-
-.cards:hover {
-    /* position: relative; */
-    border: 3px solid rgb(31, 139, 31);
-    padding: 2rem;
-}

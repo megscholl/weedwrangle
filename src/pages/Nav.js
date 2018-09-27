@@ -3,10 +3,6 @@ import { NavLink } from "react-router-dom"
 import './Nav.css'
 import logo from '../images/weedwrangle/ww_logo.png';
 
-// import Trail from './states/tennessee/trail.jpg'
-
-// <img src={Trail} alt="Tennessee Trail" width="100%"/>  
-
 class Nav extends Component {
     render() {
         return (

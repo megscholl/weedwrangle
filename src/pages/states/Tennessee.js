@@ -25,16 +25,16 @@ const Tennessee = () =>{
         <div className="tn"> 
 
             <div className="tn-section-1">
-                <p className="tn-pg-1">
+                <h1 className="tn-pg-1">
                   Tennessee is full of beautiful, native wildlife.<br/> Join our cause to rid Tennessee's beautiful lands of invasive plants. 
-                </p> 
+                </h1> 
 
 
 
                 <div className="button-div"><Button>Sign up to host a Weed Wrangle event in your city!</Button></div>
             </div>
 
-            <h3>Weed Wrangle Events and Locations in Tennessee</h3>
+            <h1>Weed Wrangle Events and Locations in Tennessee</h1>
             <div className="location-cards">
 
                 <Card className="cards">
