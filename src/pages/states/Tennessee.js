@@ -32,24 +32,89 @@ const Tennessee = () =>{
 
             <h3>Weed Wrangle Events and Locations in Tennessee</h3>
             <div className="location-cards">
-              <Card>
-                <Image src={Nashville} alt="Nashville, TN" width="15%"/>
-                <Card.Content>
-                  <Card.Header>Nashville</Card.Header>
-                </Card.Content>
+
+                <Card className="cards">
+                  <Image src={Nashville} alt="Nashville, TN" width="60%"/>
+                  <Card.Content>
+                    <Card.Header>Nashville</Card.Header>
+                  </Card.Content>
+                </Card>
+              
                 <br />
-                <Image src={Memphis} alt="Nashville, TN" width="15%"/>
-                <Card.Content>
-                  <Card.Header>Memphis</Card.Header>
-                </Card.Content>
+
+                <Card className="cards">
+                  <Image src={Memphis} alt="Nashville, TN" width="60%"/>
+                  <Card.Content>
+                    <Card.Header>Memphis</Card.Header>
+                  </Card.Content>
+                </Card>
+
                 <br />
-                <Image src={Chattanooga} alt="Nashville, TN" width="15%"/>
-                <Card.Content>
-                  <Card.Header>Chattanooga</Card.Header>
-                </Card.Content>
-              </Card>
+
+                <Card className="cards">
+                  <Image src={Chattanooga} alt="Nashville, TN" width="60%"/>
+                  <Card.Content>
+                    <Card.Header>Chattanooga</Card.Header>
+                  </Card.Content>
+                </Card>
 
         </div>
+        <div className="location-cards">
+
+            <Card className="cards">
+              <Image src={Nashville} alt="Nashville, TN" width="60%"/>
+              <Card.Content>
+                <Card.Header>Nashville</Card.Header>
+              </Card.Content>
+            </Card>
+          
+            <br />
+
+            <Card className="cards">
+              <Image src={Memphis} alt="Nashville, TN" width="60%"/>
+              <Card.Content>
+                <Card.Header>Memphis</Card.Header>
+              </Card.Content>
+            </Card>
+
+            <br />
+
+            <Card className="cards">
+              <Image src={Chattanooga} alt="Nashville, TN" width="60%"/>
+              <Card.Content>
+                <Card.Header>Chattanooga</Card.Header>
+              </Card.Content>
+            </Card>
+
+    </div>
+    <div className="location-cards">
+
+        <Card className="cards">
+          <Image src={Nashville} alt="Nashville, TN" width="60%"/>
+          <Card.Content>
+            <Card.Header>Nashville</Card.Header>
+          </Card.Content>
+        </Card>
+      
+        <br />
+
+        <Card className="cards">
+          <Image src={Memphis} alt="Nashville, TN" width="60%"/>
+          <Card.Content>
+            <Card.Header>Memphis</Card.Header>
+          </Card.Content>
+        </Card>
+
+        <br />
+
+        <Card className="cards">
+          <Image src={Chattanooga} alt="Nashville, TN" width="60%"/>
+          <Card.Content>
+            <Card.Header>Chattanooga</Card.Header>
+          </Card.Content>
+        </Card>
+
+</div>
         </div>
       
       <Footer className="tn-footer"/>
