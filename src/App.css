@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Muli:400');
 
 * {
   font-family: 'Muli', sans-serif;
+  /* font-weight: bold; */
   /* text-align: center; */
 }
 

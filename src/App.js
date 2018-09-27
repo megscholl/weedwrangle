@@ -17,15 +17,6 @@ import Virginia from'./pages/states/Virginia'
 import Mississippi from'./pages/states/Mississippi'
 import Florida from './pages/states/Florida'
 
-// // LOCATIONS FROM TENNESSEE PAGE
-// import Oak from './pages/states/Tennessee'
-// import Sewanee from './pages/states/tennessee/Sewanee'
-// import TVA from './pages/states/tennessee/TVA'
-// import LM from './pages/states/tennessee/Lookout'
-// import TSP from './pages/states/tennessee/TSP'
-// import White from './pages/states/tennessee/WhiteHouse'
-
-
 import Error from './pages/Error.js'
 import Navigation from './pages/Nav.js'
 
@@ -44,13 +35,13 @@ class App extends Component {
             <Route path="/contact" component={Contact} />
             <Route path="/calendar" component={Calendar} />
             <Route path="/resources" component={Resources} />
-            <Route path="/tn" component={Tennessee}/>
-            <Route path="/la" component={Louisiana} />
-            <Route path="/tx" component={Texas} />
-            <Route path="/or" component={Oregon} />
-            <Route path="/va" component={Virginia} />
-            <Route path="/ms" component={Mississippi} />
-            <Route path="/fl" component={Florida} />
+            <Route path="/tn" component={Tennessee} exact/>
+            <Route path="/la" component={Louisiana} exact/>
+            <Route path="/tx" component={Texas} exact/>
+            <Route path="/or" component={Oregon} exact />
+            <Route path="/va" component={Virginia} exact />
+            <Route path="/ms" component={Mississippi} exact />
+            <Route path="/fl" component={Florida} exact />
             <Route component={Error}/>
           </Switch>
         </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
 * {
     padding: 0px;
     margin:0px;
@@ -10,32 +12,34 @@
 }
 
 .navbar {
-    background-image: linear-gradient(#D2E4D3, white);
-    height: 280px;
+    background-color:#D2E4D3;
+    height: 250px;
     padding-top: 1rem;
+    border-bottom: black thin solid;
 }
 
 .topnav {
+  font-family: 'Muli', sans-serif;
     float: right;
     overflow: hidden;
 
   }
   
   .topnav a {
-    color: rgb(127, 139, 127);
+    color: rgb(90, 99, 90);
     padding-right: 2rem; 
     
     text-decoration: none;
     font-size: 16px;
 
-    -webkit-transition: font-size 1s;
+    /* -webkit-transition: font-size 1s;
       -moz-transition: font-size 1s;
         -o-transition: font-size 1s;
-         transition: font-size 1s;
+         transition: font-size 1s; */
   }
   
   .topnav a:hover {
-    font-size: 17px;
+    /* font-size: 17px; */
     font-weight: bold;
   }
   
@@ -48,7 +52,7 @@
 .App-logo {
     /* animation: App-logo-spin infinite 20s linear; */
     height: 180px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: auto;
     margin-left: auto;
   }
