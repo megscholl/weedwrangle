@@ -4,8 +4,10 @@
 }
 
 .ul-li {
+    color: green;
     list-style-type: none;
     line-height: 4rem;
+    margin-top: 2rem;
 }
 
 .li-li{
@@ -19,4 +21,18 @@
 h1 {
     padding-top: 1rem;
     text-align: center;
+}
+
+.li-p {
+    line-height: 1.5rem;
+    font-size: 16px;
+    margin-left: 7rem;
+    margin-right: 12rem;
+    text-indent: 2rem;
+
+}
+
+.resource-img {
+    float: right;
+    margin: 4rem 5rem 0 0;
 }
