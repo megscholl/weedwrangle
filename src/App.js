@@ -19,6 +19,16 @@ import Mississippi from './pages/states/Mississippi'
 import Florida from './pages/states/Florida'
 
 import Lookout from './pages/states/tennessee/LM.js'
+// import Lookout from './pages/states/tennessee/LM.js'
+// import Lookout from './pages/states/tennessee/LM.js'
+// import Lookout from './pages/states/tennessee/LM.js'
+// import Lookout from './pages/states/tennessee/LM.js'
+// import Lookout from './pages/states/tennessee/LM.js'
+            // <Route path="/tn/lookout" component={Oak} />
+            // <Route path="/tn/lookout" component={Sewanee} />
+            // <Route path="/tn/lookout" component={TSP} />
+            // <Route path="/tn/lookout" component={TVA} />
+            // <Route path="/tn/lookout" component={Lookout} />
 
 import Error from './pages/Error.js'
 import Navigation from './pages/Nav.js'
@@ -40,11 +50,9 @@ class App extends Component {
             <Route path="/calendar" component={Calendar} />
             <Route path="/resources" component={Resources} />
 
-            <Route path="/tn" component={Tennessee} exact>
+            <Route path="/tn" component={Tennessee} exact />
             
-              <Route path="/tn/lookout" component={Lookout} />
-            
-            </Route>
+            <Route path="/tn/lookout" component={Lookout} />
 
 
             <Route path="/la" component={Louisiana} exact/>
