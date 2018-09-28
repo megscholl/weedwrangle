@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400');
 
 .main-p-content {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     /* padding: 1rem; */
     text-align: left;
     margin-top: 1rem;
