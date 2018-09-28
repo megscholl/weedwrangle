@@ -8,6 +8,11 @@ class Nav extends Component {
         return (
             <div className="navbar">     
             
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="Weed Wrangle logo" />
+            </header>
+
+            
             <nav class="topnav">
             
                 <NavLink to="/">Home</NavLink>
@@ -24,9 +29,6 @@ class Nav extends Component {
                 
             </nav>
 
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="Weed Wrangle logo" />
-            </header>
             </div>
         );
     }

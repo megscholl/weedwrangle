@@ -14,24 +14,28 @@
 
 .navbar {
     background-color:#D2E4D3;
-    height: 250px;
+    height: 150px;
     padding-top: 1rem;
     border-bottom: black thin solid;
 }
 
 .topnav {
+  /* color: white; */
+  font-weight: 600;
+  margin-top: 3rem;
   font-family: 'Muli', sans-serif;
     float: right;
-    overflow: hidden;
+    /* overflow: hidden; */
 
   }
   
   .topnav a {
-    color: rgb(90, 99, 90);
+    font-family: 'Muli', sans-serif;
+    color: rgb(65, 65, 65);
     padding-right: 2rem; 
     
     text-decoration: none;
-    font-size: 16px;
+    font-size: 22px;
 
     /* -webkit-transition: font-size 1s;
       -moz-transition: font-size 1s;
@@ -41,27 +45,29 @@
   
   .topnav a:hover {
     /* font-size: 17px; */
-    font-weight: bold;
+    /* font-weight: bold; */
+    color: rgb(101, 141, 118);
   }
   
   .topnav a.active {
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
+    color: rgb(101, 141, 118);
   }
 
   
 .App-logo {
     /* animation: App-logo-spin infinite 20s linear; */
-    height: 180px;
-    margin-top: 1rem;
-    margin-right: auto;
-    margin-left: auto;
+    height:120px;
+    float: left;
+    /* margin-top: 1rem; */
+    margin-left: 5.8rem;
+    /* margin-right: auto;
+    margin-left: auto; */
   }
   
-  .App-header {
+  /* .App-header {
     text-align: center;
     height: 150px;
     padding-top: 2rem;
     margin-bottom: 3rem;
     color: white;
-  }
+  } */

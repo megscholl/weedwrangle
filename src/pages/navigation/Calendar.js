@@ -1,7 +1,6 @@
 import React from "react";
 import dateFns from "date-fns";
 import './Calendar.css'
-import Footer from '../Footer.js'
 
 class Calendar extends React.Component {
 
@@ -116,7 +115,6 @@ class Calendar extends React.Component {
             {this.renderHeader()}
             {this.renderDays()}
             {this.renderCells()}
-            <Footer />
           </div>
         );
   }

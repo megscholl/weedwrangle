@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer from '../Footer.js'
-import '../Footer.css'
 
 import './About.css'
 
@@ -18,8 +16,6 @@ const About = () =>{
       <img src={Image} alt="Weed Wrangle Sign" width="500px"/>
     </div>
 
-
-    <Footer />
     </div>
   )
 }
