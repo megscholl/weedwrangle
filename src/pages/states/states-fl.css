@@ -12,7 +12,7 @@
 
 .fl-pg-1 {
     font-family: 'Muli', sans-serif;
-    padding: 3rem 4rem 1rem 3rem;
+    padding: 2rem 4rem 1rem 3rem;
     margin-bottom: 3rem;
 
     text-align: left;
@@ -81,4 +81,21 @@ h3 {
 .fl-h4 {
     margin: 0 0 1rem -2rem;
     color: green;
+}
+
+.download-host-btn {
+    margin: 2rem 0 0 30rem;
+    background-color: rgb(186, 228, 188);
+    width: 25%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px grey solid;
+}
+
+.download-host-btn:hover {
+    cursor: pointer;
+    opacity: .8;
 }

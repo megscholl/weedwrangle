@@ -6,7 +6,7 @@ import { Card, Image, Button } from 'semantic-ui-react'
 
 // import Lookout from './tennessee/ww-lm.jpg'
 import MuscleShoals from './images/muscle_shoals2.PNG'
-import Host from 'C:/Users/prett/Redhood.Designs/weed-wrangle/src/images/Project_Info.pdf'
+import Host from './Project_Info.pdf'
 
 
 
@@ -19,12 +19,12 @@ const Florida = () =>{
 
             <div className="fl-section-1">
                 <h1 className="fl-pg-1">
-                  Florida is full of beautiful, native wildlife.<br/> Join our cause to rid Tennessee's beautiful lands of exotic and invasive plants. 
+                  Florida is full of beautiful, native wildlife.<br/> Join our cause to rid Florida's beautiful lands of exotic and invasive plants. 
                 </h1> 
 
 
 
-                <div className="button-div"><Button download="HostInfo">Sign up to host a Weed Wrangle event in your city!</Button></div>
+                <div className="button-div"><a href={Host} download="HostInfo" className="download-host-btn">Sign up to host a Weed Wrangle event in your city!</a></div>
             </div>
 
 

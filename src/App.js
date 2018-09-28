@@ -19,16 +19,16 @@ import Mississippi from './pages/states/Mississippi'
 import Florida from './pages/states/Florida'
 
 import Lookout from './pages/states/tennessee/LM.js'
-// import Lookout from './pages/states/tennessee/LM.js'
-// import Lookout from './pages/states/tennessee/LM.js'
-// import Lookout from './pages/states/tennessee/LM.js'
-// import Lookout from './pages/states/tennessee/LM.js'
-// import Lookout from './pages/states/tennessee/LM.js'
-            // <Route path="/tn/lookout" component={Oak} />
-            // <Route path="/tn/lookout" component={Sewanee} />
-            // <Route path="/tn/lookout" component={TSP} />
-            // <Route path="/tn/lookout" component={TVA} />
-            // <Route path="/tn/lookout" component={Lookout} />
+// import Oak from './pages/states/tennessee/Oak.js'
+// import Sewanee from './pages/states/tennessee/Sewanee.js'
+// import TSP from './pages/states/tennessee/TSP.js'
+// import TVA from './pages/states/tennessee/TVA.js'
+// import White from './pages/states/tennessee/White.js'
+            // <Route path="/tn/Oak" component={Oak} />
+            // <Route path="/tn/Sewanee" component={Sewanee} />
+            // <Route path="/tn/TSP" component={TSP} />
+            // <Route path="/tn/TVA" component={TVA} />
+            // <Route path="/tn/White" component={White} />
 
 import Error from './pages/Error.js'
 import Navigation from './pages/Nav.js'
