@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Footer.js'
 import './Resources.css'
 
 const Resources = () =>{
@@ -25,8 +24,6 @@ const Resources = () =>{
             </ul>
 
         </div>
-
-        <Footer />
     </div>
   )
 }

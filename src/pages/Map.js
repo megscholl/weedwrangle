@@ -1,20 +1,28 @@
 import React, { Component } from 'react';
 import USAMap from "react-usa-map";
 import './Map.css'
-import { Redirect,
+import { 
   //  NavLink, 
-  //  Link
+   Link
    } from "react-router-dom"
 
 // // STATES FROM MAP
-import Tennessee from'./states/Tennessee'
-import Louisiana from'./states/Louisiana'
-import Texas from'./states/Texas'
-import Oregon from'./states/Oregon'
-import Virginia from'./states/Virginia'
-import Mississippi from'./states/Mississippi'
-import Florida from'./states/Florida'
+// import Tennessee from'./pages/states/Tennessee'
+// import Louisiana from'./pages/states/Louisiana'
+// import Texas from'./pages/states/Texas'
+// import Oregon from'./pages/states/Oregon'
+// import Virginia from'./pages/states/Virginia'
+// import Mississippi from'./pages/states/Mississippi'
+// import Florida from './pages/states/Florida'
 
+
+// <Route path="/tn" component={Tennessee} exact/>
+// <Route path="/la" component={Louisiana} exact/>
+// <Route path="/tx" component={Texas} exact/>
+// <Route path="/or" component={Oregon} exact />
+// <Route path="/va" component={Virginia} exact />
+// <Route path="/ms" component={Mississippi} exact />
+// <Route path="/fl" component={Florida} exact />
  
 /* credit for map goes to react-usa-map at https://www.npmjs.com/package/react-usa-map */
 
@@ -31,31 +39,32 @@ class Map extends Component {
       return {
         "LA": {
 
-          clickHandler: (event) => {return(<Redirect to="/la" component={Louisiana} exact />)}
+          clickHandler: (event) => {return(<Link to='/la' exact />)}
+      
         },
         "TN": {
 
-          clickHandler: (event) => {return(<Redirect to="/tn" component={Tennessee} exact />)}
+          clickHandler: (event) => {return(<Link to="/tn" exact />)}
         },
         "OR": {
 
-          clickHandler: (event) => {return(<Redirect to="/or" component={Oregon} exact />)}
+          clickHandler: (event) => {return(<Link to="/or" exact />)}
         },
         "TX": {
 
-          clickHandler: (event) => {return(<Redirect to="/tx" component={Texas} exact />)}
+          clickHandler: (event) => {return(<Link to="/tx" exact />)}
         },
         "MS": {
 
-          clickHandler: (event) => {return(<Redirect to="/ms" component={Mississippi} exact />)}
+          clickHandler: (event) => {return(<Link to="/ms" exact />)}
         },
         "VA": {
 
-          clickHandler: (event) => {return(<Redirect to="/va" component={Virginia} exact />)}
+          clickHandler: (event) => {return(<Link to="/va" exact />)}
         },
         "FL": {
 
-          clickHandler: (event) => {return(<Redirect to="/fl" component={Florida} exact />)}
+          clickHandler: (event) => {return(<Link to="/fl" exact />)}
         }
       };
     };

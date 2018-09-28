@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 
-import Main from './pages/Main.js'
+import Home from './pages/Home.js'
+import Footer from './pages/Footer.js'
 import About from './pages/navigation/About.js'
 import Press from './pages/navigation/Press.js'
 import Contact from './pages/navigation/Contact.js'
@@ -19,6 +20,7 @@ import Florida from './pages/states/Florida'
 
 import Error from './pages/Error.js'
 import Navigation from './pages/Nav.js'
+// import Map from './pages/Map.js'
 
 
 class App extends Component {
@@ -29,12 +31,13 @@ class App extends Component {
         <div>
           <Navigation />
           <Switch>
-            <Route path="/" component={Main} exact />
+            <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
             <Route path="/press" component={Press} />
             <Route path="/contact" component={Contact} />
             <Route path="/calendar" component={Calendar} />
             <Route path="/resources" component={Resources} />
+
             <Route path="/tn" component={Tennessee} exact/>
             <Route path="/la" component={Louisiana} exact/>
             <Route path="/tx" component={Texas} exact/>
@@ -42,8 +45,10 @@ class App extends Component {
             <Route path="/va" component={Virginia} exact />
             <Route path="/ms" component={Mississippi} exact />
             <Route path="/fl" component={Florida} exact />
+
             <Route component={Error}/>
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
 
