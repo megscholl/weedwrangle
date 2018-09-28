@@ -35,73 +35,32 @@ class Map extends Component {
     console.log("event target datasets: ", event.target.dataset.name);
   };
 
-    statesCustomConfig = () => {
+    statesCustomConfig = (event) => {
       return {
         "LA": {
-
           clickHandler: (event) => {return(<Link to='/la' exact />)}
-      
         },
         "TN": {
-
           clickHandler: (event) => {return(<Link to="/tn" exact />)}
         },
         "OR": {
-
           clickHandler: (event) => {return(<Link to="/or" exact />)}
         },
         "TX": {
-
           clickHandler: (event) => {return(<Link to="/tx" exact />)}
         },
         "MS": {
-
           clickHandler: (event) => {return(<Link to="/ms" exact />)}
         },
         "VA": {
-
           clickHandler: (event) => {return(<Link to="/va" exact />)}
         },
         "FL": {
-
           clickHandler: (event) => {return(<Link to="/fl" exact />)}
         }
       };
     };
 
-
-  //   // THIS IS WHERE THE MANIPUATION OF THE MAP WILL TAKE PLACE //
-  //   if(event.target.dataset.name === "LA") {
-
-  //        return(
-  //         <Link to='/la/' component={Louisiana} exact/>)
-                    
-       
-  //   } else if(event.target.dataset.name === "MS") {
-
-  //        console.log("YOU CHOSE MISSISSIPPI"); 
-      
-  //   } else if(event.target.dataset.name === "OR") {
-
-  //        console.log("YOU CHOSE OREGON"); 
-
-  //   } else if(event.target.dataset.name === "TN") {
-
-  //        console.log("YOU CHOSE TENNESSEE"); 
-
-  //   } else if(event.target.dataset.name === "TX") {
-
-  //        console.log("YOU CHOSE TEXAS"); 
-
-  //   }  else if(event.target.dataset.name === "VA") {
-
-  //        console.log("YOU CHOSE VIRGINIA"); 
-      
-
-  //   } else if(console.log("error: state chosen does not partner with the weed wrangle yet"));
-    
-  // };
- 
   render() {
     console.log("MAP HANDLER:", USAMap)
     return (
