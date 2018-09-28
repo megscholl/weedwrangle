@@ -14,6 +14,7 @@
 }
 
 .lm-h4 {
+    margin-bottom: 1rem;
     font-size: 22px;
     font-weight: 200;
     letter-spacing: 5px;
@@ -33,4 +34,13 @@
 .lm-img-1 {
     float: right;
     margin: 2rem 8rem 0 0;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5rem auto 5rem auto;
+    text-align: center;
+    height: 300px;
 }

@@ -10,6 +10,9 @@ import Golf from './lookout_mountain/Golfclub.png'
 import NPS from './lookout_mountain/nps.png'
 
 import ParkCleanup from './parkcleanup.jpg'
+import Signs from './lookout_mountain/lm-signs.PNG'
+import Working from './lookout_mountain/working.PNG'
+import Folks from './lookout_mountain/folks.PNG'
 
 
 import './StateLocations.css'
@@ -39,18 +42,24 @@ class Lookout extends Component {
 
                     </div>
 
-
+                    
+                    <div className="images">
+                    <img src={Working} alt="Lookout Mountain Ladies Pulling Weeds" width="500px"/>
+                    <img src={Signs} alt="Lookout Mountain Signs" width="500px"/>
+                    <img src={Folks} alt="Lookout Mountain Kids Posing with Invasives" width="500px"/>
+                    </div>
+                    
 
 
                     <h4 className="lm-h4">Organizational Partners:</h4>
                     <div className="lm-gallery">
 
-                    <img src={Lula} alt="Lula" width="8%" className="" />
-                    <img src={City} alt="City of Lookout Mountain" width="5%" className="" />
-                    <img src={Fairyland} alt="Fairyland Club of Lookout Mountain" width="8%" className="" />
-                    <img src={Conservancy} alt="Lookout Mountain Conservancy" width="5%" className="" />
-                    <img src={Golf} alt="Golf Club of Lookout Mountain" width="5%" className="" />
-                    <img src={NPS} alt="National Park Service" width="4.8%" />
+                        <img src={Lula} alt="Lula" width="8%" className="" />
+                        <img src={City} alt="City of Lookout Mountain" width="5%" className="" />
+                        <img src={Fairyland} alt="Fairyland Club of Lookout Mountain" width="8%" className="" />
+                        <img src={Conservancy} alt="Lookout Mountain Conservancy" width="5%" className="" />
+                        <img src={Golf} alt="Golf Club of Lookout Mountain" width="5%" className="" />
+                        <img src={NPS} alt="National Park Service" width="4.8%" />
                     
 
                     </div>
