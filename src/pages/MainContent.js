@@ -4,6 +4,8 @@ import honeysuckle from '../images/weedwrangle/honeysuckle.jpg'
 import loosestrife from '../images/weedwrangle/purple-loosestrife.jpg'
 import ivy from '../images/weedwrangle/english-ivy.jpg'
 
+import Host from '../images/Project_Info.pdf'
+
 
 class MainContent extends Component {
     render() {
@@ -21,7 +23,7 @@ class MainContent extends Component {
 
                     <br />
 
-                    <a href="./images/Project_Info.pdf" download="HostInformation" className="join-link">Join Us by Hosting a Weed Wrangle!</a><br/>
+                    <a href={Host} download="HostInformation" className="join-link">Join Us by Hosting a Weed Wrangle!</a><br/>
                 </div>
 
 
