@@ -5,3 +5,32 @@
     margin-left: auto;
     text-align: center;
 }
+
+.lm-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.lm-h4 {
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin-left: 7rem;
+}
+
+.lm-main-content {
+    margin-left: 7rem;
+    margin-right: 40rem;
+}
+
+.lm-main-content p {
+    text-indent: 2rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.lm-img-1 {
+    float: right;
+    margin: 2rem 8rem 0 0;
+}
