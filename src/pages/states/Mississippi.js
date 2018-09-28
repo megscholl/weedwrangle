@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Footer.js'
 
 const Mississippi = () =>{
   return ( 
@@ -7,7 +6,6 @@ const Mississippi = () =>{
       
       <h1>Mississippi</h1>
 
-      <Footer />
     </div>
   )
 }

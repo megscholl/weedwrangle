@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Footer.js'
 import './states.css'
 import { Card, Image, Button } from 'semantic-ui-react'
 // import { Link } from "react-router-dom"
@@ -84,7 +83,6 @@ const Tennessee = () =>{
     </div>
         </div>
       
-      <Footer className="tn-footer"/>
 
     </div>
   )
