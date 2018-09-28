@@ -1,7 +1,8 @@
 import React from 'react'
 import './states.css'
 import { Card, Image, Button } from 'semantic-ui-react'
-// import { Link } from "react-router-dom"
+
+import { Link } from "react-router-dom"
 
 //      IMAGES
 // import Honeysuckle from './honeysuckle.png'
@@ -38,11 +39,13 @@ const Tennessee = () =>{
             <h1>Weed Wrangle Events and Locations in Tennessee</h1>
             <div className="location-cards">
 
-                <Card className="cards">
-                  <Image src={Lookout} alt="Lookout Mountain, TN" width="325px"/>
-                  
-                </Card>
-              
+                <Link to="./tn/lookout">
+                  <Card className="cards">
+                    <Image src={Lookout} alt="Lookout Mountain, TN" width="325px"/>
+                    
+                  </Card>
+                </Link>
+                
                 <br />
 
                 <Card className="cards">
