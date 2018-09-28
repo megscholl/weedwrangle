@@ -10,13 +10,15 @@ import Calendar from './pages/navigation/Calendar.js'
 import Resources from './pages/navigation/Resources.js'
 
 // STATES FROM MAP
-import Tennessee from'./pages/states/Tennessee'
-import Louisiana from'./pages/states/Louisiana'
-import Texas from'./pages/states/Texas'
-import Oregon from'./pages/states/Oregon'
-import Virginia from'./pages/states/Virginia'
-import Mississippi from'./pages/states/Mississippi'
+import Tennessee from './pages/states/Tennessee'
+import Louisiana from './pages/states/Louisiana'
+import Texas from './pages/states/Texas'
+import Oregon from './pages/states/Oregon'
+import Virginia from './pages/states/Virginia'
+import Mississippi from './pages/states/Mississippi'
 import Florida from './pages/states/Florida'
+
+import Lookout from './pages/states/tennessee/LM.js'
 
 import Error from './pages/Error.js'
 import Navigation from './pages/Nav.js'
@@ -38,7 +40,13 @@ class App extends Component {
             <Route path="/calendar" component={Calendar} />
             <Route path="/resources" component={Resources} />
 
-            <Route path="/tn" component={Tennessee} exact/>
+            <Route path="/tn" component={Tennessee} exact>
+            
+              <Route path="/tn/lookout" component={Lookout} />
+            
+            </Route>
+
+
             <Route path="/la" component={Louisiana} exact/>
             <Route path="/tx" component={Texas} exact/>
             <Route path="/or" component={Oregon} exact />
