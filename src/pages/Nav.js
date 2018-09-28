@@ -3,6 +3,14 @@ import { NavLink } from "react-router-dom"
 import './Nav.css'
 import logo from '../images/weedwrangle/ww_logo.png';
 
+
+// TO ADD IN ONCE READY
+
+// <NavLink to="/press">Press</NavLink>
+// <NavLink to="/about">About</NavLink>
+// <NavLink to="/contact">Contact</NavLink>
+
+
 class Nav extends Component {
     render() {
         return (
@@ -17,11 +25,7 @@ class Nav extends Component {
             
                 <NavLink to="/">Home</NavLink>
 
-                <NavLink to="/about">About</NavLink>
                 
-                <NavLink to="/contact">Contact</NavLink>
-                
-                <NavLink to="/press">Press</NavLink>
                 
                 <NavLink to="/resources">Resources</NavLink>
                 
