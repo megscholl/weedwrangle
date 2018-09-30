@@ -26,7 +26,7 @@ const Tennessee = () =>{
         <div className="tn"> 
 
             <div className="tn-section-1">
-                <h1 className="tn-pg-1">
+                <h1 className="banner-pg-1">
                   Tennessee is full of beautiful, native wildlife.<br/> Join our cause to rid Tennessee's beautiful lands of invasive plants. 
                 </h1> 
 
