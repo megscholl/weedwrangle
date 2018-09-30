@@ -1,29 +1,25 @@
 
 
 .states-gallery {
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 1rem 3rem 1rem 3rem;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-
-.states-cards {
-    /* position: relative; */
-    /* border: 2px solid rgb(127, 139, 127); */
-    /* padding: 2rem; */
+    flex-flow: row wrap; 
+    justify-content: space-between;
+    margin: 2rem 8rem 0 10rem;
 }
 
 .outlines {
     padding-top: 1rem;
+    margin: 2rem;
 }
 
 .state-h2 {
+    text-align: center;
     color: rgb(99, 114, 89);
     font-weight: 800;
     padding-top: 2rem;
+    font-size: 20px;
+}
+
+.find-a-ww-h2 {
+    text-align: center;
 }

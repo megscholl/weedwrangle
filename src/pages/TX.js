@@ -8,11 +8,11 @@ class TexasState extends Component {
     render() {
 
         return (
-            <div>
+            <div className="states">
                 <h2 className="state-h2">Texas</h2>
 
                 <NavLink to="/tx">
-                    <img src={TX} alt="Texas" width="100%" className="outlines"/>
+                    <img src={TX} alt="Texas" width="200px" className="outlines"/>
                 </NavLink>
             </div>
         )
