@@ -86,31 +86,77 @@ h3 {
 
 
 
-/* NOT BEING USED 
-/*.honeysuckle {
-    float: right;
-    width: 400px;
-    margin-right: 10rem;
-    
-    -webkit-transition: width 5s;
-      -moz-transition: width 5s;
-        -o-transition: width 5s;
-         transition: width 5s;
+
+
+.banner-pg-1 {
+    font-family: 'Muli', sans-serif;
+    padding: 2rem 4rem 1rem 3rem;
+    margin-bottom: 3rem;
+
+    text-align: left;
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 50px;
 }
 
-.ivy {
-    width: 200px;
-    padding-top: 2rem;
-    margin-left: 80%;
-    /* float: right; */
-    /* margin-bottom: 50rem; */
 
-    /* -webkit-transition: width 5s;
-      -moz-transition: width 5s;
-        -o-transition: width 5s;
-         transition: width 5s; */
-/* } */
+.invasive-img {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-/* .ivy:hover {
-    width: 210px;
-} */
+
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+    /* background-color: #D2E4D3; */
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+
+
+.location-cards {
+    margin-top: 1rem;
+    /* margin: 2rem; */
+    padding: 1rem 3rem 3rem 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cards {
+    /* position: relative; */
+    border: 2px solid rgb(127, 139, 127);
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+
+
+.muscle-shoals {
+    margin: 2rem 0 0 2rem;
+    text-indent: 2rem;
+}
+
+.each-state-locations {
+    margin: 2rem 0 0 2rem;
+    text-indent: 2rem;
+}
+
+.fl-h4 {
+    margin: 0 0 1rem -2rem;
+    color: green;
+}
+
+.in-section-1 {
+    background-image: url('./images/muscle_shoals.PNG');
+    opacity: .8;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 8rem;
+    margin-bottom: 5rem;
+}
