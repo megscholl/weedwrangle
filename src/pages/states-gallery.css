@@ -4,22 +4,25 @@
     display: flex;
     flex-flow: row wrap; 
     justify-content: space-between;
-    margin: 2rem 8rem 0 10rem;
+    margin: 2rem 10rem 0 10rem;
 }
 
 .outlines {
     padding-top: 1rem;
-    margin: 2rem;
+    margin: 1rem;
 }
+
+
 
 .state-h2 {
     text-align: center;
     color: rgb(99, 114, 89);
     font-weight: 800;
-    padding-top: 2rem;
+    margin-top: 4rem;
     font-size: 20px;
 }
 
 .find-a-ww-h2 {
     text-align: center;
+    margin-top: 3rem;
 }

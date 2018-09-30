@@ -3,6 +3,8 @@ import Video from './Video.js'
 // import Map from './Map.js'
 import MainContent from './MainContent.js'
 
+// import Loosestrife from './states/purple-loosestrife-png.png'
+// <img src={Loosestrife} alt="Trails" width="200px" height="200px"/>
 
 import TennesseeState from './TN.js'
 import FloridaState from './FL.js'
