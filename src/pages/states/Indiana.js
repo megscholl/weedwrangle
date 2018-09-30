@@ -8,18 +8,9 @@ import { Card, Image, Button } from 'semantic-ui-react'
 // import Lookout from './tennessee/ww-lm.jpg'
 import INresults from './indiana/results.jpg'
 import Host from './Project_Info.pdf'
-
-/*
-
-
-
-
-
-
-
-*/
-
-
+import Loosestrife from './indiana/purple-loosestrife.jpg'
+import Yellow from './indiana/yellow.jpg'
+import IndianaImage from './indiana/indiana.PNG'
 
 
 const Indiana = () =>{
@@ -30,7 +21,7 @@ const Indiana = () =>{
 
             <div className="in-section-1">
                 <h1 className="banner-pg-1">
-                  Indiana is full of beautiful, native wildlife.<br/> Join our cause to rid Indiana's beautiful lands of exotic and invasive plants. 
+                  Indiana is full of beautiful, native wildlife.<br/> Join our cause to rid Indiana's beautiful lands of invasive plants. 
                 </h1> 
 
 
@@ -58,7 +49,7 @@ const Indiana = () =>{
             <div className="location-cards">
 
                   <Card className="cards">
-                    <Image src={INresults} alt="Indiana" width="325px"/>
+                    <Image src={Loosestrife} alt="Indiana" width="325px"/>
                   </Card>
 
                   <div className="each-state-locations">
@@ -74,7 +65,7 @@ const Indiana = () =>{
             <div className="location-cards">
 
                   <Card className="cards">
-                    <Image src={INresults} alt="Indiana" width="325px"/>
+                    <Image src={Yellow} alt="Indiana" width="325px"/>
                   </Card>
 
                   <div className="each-state-locations">
@@ -91,7 +82,7 @@ const Indiana = () =>{
             <div className="location-cards">
 
                   <Card className="cards">
-                    <Image src={INresults} alt="Indiana" width="325px"/>
+                    <Image src={IndianaImage} alt="Indiana" width="325px"/>
                   </Card>
 
                   <div className="each-state-locations">
@@ -107,7 +98,7 @@ const Indiana = () =>{
             <div className="location-cards">
 
                   <Card className="cards">
-                    <Image src={INresults} alt="Indiana" width="325px"/>
+                    <Image src={Yellow} alt="Indiana" width="325px"/>
                   </Card>
 
                   <div className="each-state-locations">
@@ -142,7 +133,7 @@ const Indiana = () =>{
             <div className="location-cards">
 
                   <Card className="cards">
-                    <Image src={INresults} alt="Indiana" width="325px"/>
+                    <Image src={Loosestrife} alt="Indiana" width="325px"/>
                   </Card>
 
                   <div className="each-state-locations">
