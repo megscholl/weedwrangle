@@ -18,6 +18,7 @@ import Virginia from './pages/states/Virginia'
 import Mississippi from './pages/states/Mississippi'
 import Florida from './pages/states/Florida'
 import Indiana from './pages/states/Indiana.js'
+import Alabama from './pages/states/Alabama.js'
 
 import Lookout from './pages/states/tennessee/LM.js'
 // import Oak from './pages/states/tennessee/Oak.js'
@@ -63,6 +64,7 @@ class App extends Component {
             <Route path="/ms" component={Mississippi} exact />
             <Route path="/fl" component={Florida} exact />
             <Route path="/in" component={Indiana} exact />
+            <Route path="/al" component={Alabama} exact />
 
             <Route component={Error}/>
           </Switch>

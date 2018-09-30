@@ -34,7 +34,7 @@ const Indiana = () =>{
             <h1>Weed Wrangle Events and Locations in Indiana</h1>
             <div className="location-cards">
 
-                  <Card className="cards">
+                  <Card className="single-locations">
                     <Image src={INresults} alt="Indiana" width="325px"/>
                   </Card>
 
@@ -48,7 +48,7 @@ const Indiana = () =>{
 
             <div className="location-cards">
 
-                  <Card className="cards">
+                  <Card className="single-locations">
                     <Image src={Loosestrife} alt="Indiana" width="325px"/>
                   </Card>
 
@@ -64,7 +64,7 @@ const Indiana = () =>{
 
             <div className="location-cards">
 
-                  <Card className="cards">
+                  <Card className="single-locations">
                     <Image src={Yellow} alt="Indiana" width="325px"/>
                   </Card>
 
@@ -81,7 +81,7 @@ const Indiana = () =>{
 
             <div className="location-cards">
 
-                  <Card className="cards">
+                  <Card className="single-locations">
                     <Image src={IndianaImage} alt="Indiana" width="325px"/>
                   </Card>
 
@@ -97,7 +97,7 @@ const Indiana = () =>{
 
             <div className="location-cards">
 
-                  <Card className="cards">
+                  <Card className="single-locations">
                     <Image src={Yellow} alt="Indiana" width="325px"/>
                   </Card>
 
@@ -114,7 +114,7 @@ const Indiana = () =>{
 
             <div className="location-cards">
 
-                  <Card className="cards">
+                  <Card className="single-locations">
                     <Image src={INresults} alt="Indiana" width="325px"/>
                   </Card>
 
@@ -132,7 +132,7 @@ const Indiana = () =>{
 
             <div className="location-cards">
 
-                  <Card className="cards">
+                  <Card className="single-locations">
                     <Image src={Loosestrife} alt="Indiana" width="325px"/>
                   </Card>
 
