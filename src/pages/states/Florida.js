@@ -1,5 +1,6 @@
 import React from 'react'
 import './states-fl.css'
+import './states.css'
 import { Card, Image, Button } from 'semantic-ui-react'
 
 // import { Link } from "react-router-dom"
@@ -24,7 +25,7 @@ const Florida = () =>{
 
 
 
-                <div className="button-div"><a href={Host} download="HostInfo" className="download-host-btn">Sign up to host a Weed Wrangle event in your city!</a></div>
+                <Button className="host-btn" href={Host} download="HostInformation">Sign up to host a Weed Wrangle event in your city!</Button>
             </div>
 
 

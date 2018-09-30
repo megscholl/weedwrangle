@@ -18,6 +18,7 @@ import WhiteHouse from './tennessee/ww-whitehouse.jpg'
 import TVA from './tennessee/ww-tva.jpg'
 import TSP from './tennessee/tspna.jpg'
 
+import Host from './Project_Info.pdf'
 
 const Tennessee = () =>{
   return ( 
@@ -31,7 +32,7 @@ const Tennessee = () =>{
 
 
 
-                <div className="button-div"><Button>Sign up to host a Weed Wrangle event in your city!</Button></div>
+                <Button className="host-btn" href={Host} download="HostInformation">Sign up to host a Weed Wrangle event in your city!</Button>
             </div>
 
 

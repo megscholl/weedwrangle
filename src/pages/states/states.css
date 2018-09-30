@@ -21,18 +21,18 @@
     font-size: 50px;
 }
 
-Button {
-    margin-left: 40%;
+.host-btn {
+    /* margin-right: auto; */
+    margin-left: 3rem;
     background-color: rgb(186, 228, 188);
-    width: 25%;
-    text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 22px;
     color: rgb(0, 0, 0);
     font-weight: bold;
+    border: 2px grey solid;
 }
 
-Button:hover {
+.host-btn:hover {
     cursor: pointer;
     opacity: .8;
 }

@@ -22,21 +22,6 @@
     font-size: 50px;
 }
 
-Button {
-    margin-left: 40%;
-    background-color: rgb(186, 228, 188);
-    width: 25%;
-    text-align: center;
-    padding: 1rem;
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-Button:hover {
-    cursor: pointer;
-    opacity: .8;
-}
 
 .invasive-img {
     position: relative;
@@ -83,7 +68,7 @@ h3 {
     color: green;
 }
 
-.download-host-btn {
+/* .download-host-btn {
     margin: 2rem 0 0 30rem;
     background-color: rgb(186, 228, 188);
     width: 25%;
@@ -98,4 +83,4 @@ h3 {
 .download-host-btn:hover {
     cursor: pointer;
     opacity: .8;
-}
+} */

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { NavLink } from "react-router-dom"
 import './Nav.css'
 import logo from '../images/weedwrangle/ww_logo.png';
+// import Sticky from 'semantic-ui-react'
 
 
 // TO ADD IN ONCE READY
