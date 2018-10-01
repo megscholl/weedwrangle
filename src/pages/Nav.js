@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavLink } from "react-router-dom"
+import { NavLink, Link } from "react-router-dom"
 import './Nav.css'
 import logo from '../images/weedwrangle/ww_logo.png';
 // import Sticky from 'semantic-ui-react'
@@ -18,7 +18,7 @@ class Nav extends Component {
             <div className="navbar">     
             
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="Weed Wrangle logo" />
+                <Link to="/"><img src={logo} className="App-logo" alt="Weed Wrangle logo" /></Link>
             </header>
 
             
