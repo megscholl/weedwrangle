@@ -30,7 +30,7 @@ import Jackson from './pages/states/mississippi/JS.js'
 import Laurel from './pages/states/mississippi/Laurel.js'
 
 // TENNESSEE LOCATION PAGES
-import Lookout from './pages/states/tennessee/LM.js'
+import Lookout from './pages/states/tennessee/lookout_mountain/LM.js'
 // import Oak from './pages/states/tennessee/Oak.js'
 // import Sewanee from './pages/states/tennessee/Sewanee.js'
 // import TSP from './pages/states/tennessee/TSP.js'
