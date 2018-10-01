@@ -55,22 +55,18 @@ class App extends Component {
             <Route path="/calendar" component={Calendar} />
             <Route path="/resources" component={Resources} />
 
-            <Route path="/tn" component={Tennessee} exact />
-            
-            <Route path="/tn/lookout" component={Lookout} />
-
-
-            <Route path="/la" component={Louisiana} exact/>
-            <Route path="/tx" component={Texas} exact/>
-            <Route path="/or" component={Oregon} exact />
-            <Route path="/va" component={Virginia} exact />
-            <Route path="/ms" component={Mississippi} exact />
-            <Route path="/fl" component={Florida} exact />
-            <Route path="/in" component={Indiana} exact />
             <Route path="/al" component={Alabama} exact />
+            <Route path="/fl" component={Florida} exact />
             <Route path="/ga" component={Georgia} exact />
-
+            <Route path="/in" component={Indiana} exact />
+            <Route path="/la" component={Louisiana} exact/>
+            <Route path="/ms" component={Mississippi} exact />
+            <Route path="/or" component={Oregon} exact />
+            <Route path="/tn" component={Tennessee} exact />
+            <Route path="/tx" component={Texas} exact/>
+            <Route path="/va" component={Virginia} exact />
             
+            <Route path="/tn/lookout" component={Lookout} />            
 
             <Route component={Error}/>
           </Switch>

@@ -53,9 +53,9 @@ const Lousiana = () =>{
             
             <div className="images">
                 <img src={Ladies} alt="Ladies in New Orleans removing invasive plants for the Weed Wrangle event" width="350px"/>
+                <img src={Wranglers3} alt="People in New Orleans removing invasive plants for the Weed Wrangle event" width="200px"/>
                 <img src={Wranglers} alt="People in New Orleans removing invasive plants for the Weed Wrangle event" width="350px"/>
                 <img src={Wranglers2} alt="People in New Orleans removing invasive plants for the Weed Wrangle event" width="350px"/>
-                <img src={Wranglers3} alt="People in New Orleans removing invasive plants for the Weed Wrangle event" width="200px"/>
             </div>
 
         </div>
