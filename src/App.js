@@ -22,6 +22,8 @@ import Alabama from './pages/states/Alabama.js'
 import Georgia from './pages/states/Georgia.js'
 
 
+// import Botanical from './pages/states/georgia/Botanical.js'
+
 // MISSISSIPPI LOCATION PAGES
 import Greenville from './pages/states/mississippi/GV.js'
 import Jackson from './pages/states/mississippi/JS.js'
@@ -40,7 +42,10 @@ import Lookout from './pages/states/tennessee/LM.js'
             // <Route path="/tn/TVA" component={TVA} />
             // <Route path="/tn/White" component={White} />
 
-// import Botanical from './pages/states/georgia/Botanical.js'
+// TEXAS LOCATION PAGES
+import Dallas from './pages/states/texas/Dallas.js'
+import Houston from './pages/states/texas/Houston.js'
+
 
 import Error from './pages/Error.js'
 import Navigation from './pages/Nav.js'
@@ -82,6 +87,10 @@ class App extends Component {
 
 
             <Route path="/tx" component={Texas} exact/>
+                  <Route path="/tx/dallas" component={Dallas} />
+                  <Route path="/tx/houston" component={Houston} />
+
+
             <Route path="/va" component={Virginia} exact />
                      
 
