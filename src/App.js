@@ -19,6 +19,7 @@ import Mississippi from './pages/states/Mississippi'
 import Florida from './pages/states/Florida'
 import Indiana from './pages/states/Indiana.js'
 import Alabama from './pages/states/Alabama.js'
+import Georgia from './pages/states/Georgia.js'
 
 import Lookout from './pages/states/tennessee/LM.js'
 // import Oak from './pages/states/tennessee/Oak.js'
@@ -31,6 +32,8 @@ import Lookout from './pages/states/tennessee/LM.js'
             // <Route path="/tn/TSP" component={TSP} />
             // <Route path="/tn/TVA" component={TVA} />
             // <Route path="/tn/White" component={White} />
+
+// import Botanical from './pages/states/georgia/Botanical.js'
 
 import Error from './pages/Error.js'
 import Navigation from './pages/Nav.js'
@@ -65,6 +68,9 @@ class App extends Component {
             <Route path="/fl" component={Florida} exact />
             <Route path="/in" component={Indiana} exact />
             <Route path="/al" component={Alabama} exact />
+            <Route path="/ga" component={Georgia} exact />
+
+            
 
             <Route component={Error}/>
           </Switch>
