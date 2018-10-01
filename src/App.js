@@ -21,6 +21,13 @@ import Indiana from './pages/states/Indiana.js'
 import Alabama from './pages/states/Alabama.js'
 import Georgia from './pages/states/Georgia.js'
 
+
+// MISSISSIPPI LOCATION PAGES
+import Greenville from './pages/states/mississippi/GV.js'
+import Jackson from './pages/states/mississippi/JS.js'
+import Laurel from './pages/states/mississippi/Laurel.js'
+
+// TENNESSEE LOCATION PAGES
 import Lookout from './pages/states/tennessee/LM.js'
 // import Oak from './pages/states/tennessee/Oak.js'
 // import Sewanee from './pages/states/tennessee/Sewanee.js'
@@ -60,13 +67,23 @@ class App extends Component {
             <Route path="/ga" component={Georgia} exact />
             <Route path="/in" component={Indiana} exact />
             <Route path="/la" component={Louisiana} exact/>
+
             <Route path="/ms" component={Mississippi} exact />
+                  <Route path="/ms/greenville" component={Greenville} /> 
+                  <Route path="/ms/jackson" component={Jackson} /> 
+                  <Route path="/ms/laurel" component={Laurel} />  
+
+
             <Route path="/or" component={Oregon} exact />
+
             <Route path="/tn" component={Tennessee} exact />
+                  <Route path="/tn/lookout" component={Lookout} />  
+
+
+
             <Route path="/tx" component={Texas} exact/>
             <Route path="/va" component={Virginia} exact />
-            
-            <Route path="/tn/lookout" component={Lookout} />            
+                     
 
             <Route component={Error}/>
           </Switch>

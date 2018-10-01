@@ -1,0 +1,50 @@
+
+
+.ww-logo {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.lm-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.lm-h4 {
+    margin-bottom: 1rem;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin-left: 7rem;
+}
+
+.lm-main-content {
+    margin: 2rem 40rem 0 7rem;
+}
+
+.lm-main-content p {
+    text-indent: 2rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.lm-img-1 {
+    float: right;
+    margin: 2rem 8rem 0 0;
+}
+
+.lm-img-2 {
+    float: right;
+    margin: 5rem 8rem 0 2rem;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5rem auto 5rem auto;
+    text-align: center;
+    height: 300px;
+}
