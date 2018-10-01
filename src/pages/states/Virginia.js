@@ -7,7 +7,7 @@ import { Button, Card, Image } from 'semantic-ui-react'
 import Alexandria from './virginia/alexandria.PNG'
 import Host from './Project_Info.pdf'
          
-import Wranglers from './virginia/wranglers.PNG'
+// import Wranglers from './virginia/wranglers.PNG'
 
 
 // !!!!!!!!!!!! NEED TO TAKE OUT ALL MUSCLE SHOALS 
