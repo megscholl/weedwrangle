@@ -37,6 +37,23 @@
     opacity: .8;
 }
 
+
+.host-btn-center {
+    margin-left: 30%;
+    margin-bottom: 5rem;
+    background-color: rgb(186, 228, 188);
+    padding: 1.5rem;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px grey solid;
+}
+.host-btn-center:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+
 .invasive-img {
     position: relative;
     margin-right: auto;
