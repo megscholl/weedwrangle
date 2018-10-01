@@ -2,18 +2,9 @@ import React from 'react'
 
 import { Card, Image, Button } from 'semantic-ui-react'
 
-import { Link } from "react-router-dom"
-
 //      IMAGES
-// import Honeysuckle from './honeysuckle.png'
-// import Ivy from './ivy.png'
-// import Nashville from './tennessee/nashville.PNG'
-// import Memphis from './tennessee/memphis.PNG'
-// import Chattanooga from './tennessee/chatt.PNG' 
-
-import Lookout from './tennessee/ww-lm.jpg'
-import OakRidge from './tennessee/ww-oakridge.png'
-import Sewanee from './tennessee/ww-sewanee.jpg'
+import Logo from './oregon/logo.PNG'
+import Bottle from './oregon/bottle.PNG'
 
 import Host from './Project_Info.pdf'
 
@@ -35,31 +26,23 @@ const Oregon = () =>{
                 <Button className="host-btn" href={Host} download="HostInformation">Sign up to host a Weed Wrangle event in your city!</Button>
             </div>
 
+            <div>
+                    <div className="ww-logo">
+                        <img src={Logo} alt="Laurel Mississippi" width="60%"/>
+                    </div>
 
+                        
+                    <img src={Bottle} alt="Laurel Garden Club" width="25%" className="lm-img-1" />
+                    <div className="lm-main-content">
+                    <h2>Grants Pass, Oregon</h2>
 
-            <h1>Weed Wrangle Events and Locations in Oregon</h1>
-            <div className="location-cards">
-
-                <Link to="./tn/lookout">
-                  <Card className="cards">
-                    <Image src={Lookout} alt="Lookout Mountain, TN" width="325px"/>
-                    
-                  </Card>
-                </Link>
-                
-                <br />
-
-                <Card className="cards">
-                  <Image src={OakRidge} alt="Oak Ridge, TN" width="325px"/>
-                  
-                </Card>
-
-                <br />
-
-                <Card className="cards">
-                  <Image src={Sewanee} alt="Sewanee, TN" width="325px"/>
-                  
-                </Card>
+                    <p>
+                    Weed Wrangle - Grants Pass is a single day event focused on caring for our public lands by removing invasive plants. We will continue our work from last year, targeting the removal of Scotch broom, dyer's woad, and garlic mustard at Griffin Park and the neighboring BLM land. 
+                    </p>
+                    <h4>Meet at the Griffin Park Shelter at 8:30 am to register and join the fun!</h4>
+                    <p>Earn 4 volunteer hours toward an annual park pass and enjoy a meal from 1:00-2:00 in appreciation for a job well done! County Park Day-Use Fee will be waived for participants. Tools will be provided. Bring gloves and wear long sleeves, pants, and work boots.
+                    </p>
+                    </div>
 
             </div>
 
