@@ -145,6 +145,8 @@ const Indiana = () =>{
                 
             </div>
 
+            <a className="join-link-2" href={Host} download="HostInformation">Sign up to host a Weed Wrangle event in your city!</a>
+              
         </div>
     </div>
   )

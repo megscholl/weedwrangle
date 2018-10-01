@@ -34,7 +34,7 @@ const Florida = () =>{
             <h1>Weed Wrangle Events and Locations in Florida</h1>
             <div className="location-cards">
 
-                  <Card className="cards">
+                  <Card className="single-locations">
                     <Image src={MuscleShoals} alt="Jacksonville, FL" width="325px"/>
                   </Card>
 

@@ -25,8 +25,6 @@ class Nav extends Component {
             <nav class="topnav">
             
                 <NavLink to="/">Home</NavLink>
-
-                
                 
                 <NavLink to="/resources">Resources</NavLink>
                 

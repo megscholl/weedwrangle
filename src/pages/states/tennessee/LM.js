@@ -44,9 +44,9 @@ class Lookout extends Component {
 
                     
                     <div className="images">
-                    <img src={Working} alt="Lookout Mountain Ladies Pulling Weeds" width="500px"/>
-                    <img src={Signs} alt="Lookout Mountain Signs" width="500px"/>
-                    <img src={Folks} alt="Lookout Mountain Kids Posing with Invasives" width="500px"/>
+                        <img src={Working} alt="Lookout Mountain Ladies Pulling Weeds" width="500px"/>
+                        <img src={Signs} alt="Lookout Mountain Signs" width="500px"/>
+                        <img src={Folks} alt="Lookout Mountain Kids Posing with Invasives" width="500px"/>
                     </div>
                     
 
