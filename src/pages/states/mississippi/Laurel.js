@@ -5,6 +5,7 @@ import React, { Component } from 'react'
 import Laurel1 from './laurel.PNG'
 // import Wranglers from './Wranglers.PNG'
 import GGC from './ggc.PNG'
+import LaurelImg from './laurel.jpg'
 
 import './StateLocations.css'
 
@@ -19,7 +20,7 @@ class Laurel extends Component {
                     </div>
 
                         
-                    <img src={GGC} alt="Laurel Garden Club" width="25%" className="lm-img-1" />
+                    <img src={LaurelImg} alt="Laurel Downtown Garden" width="35%" className="lm-img-3" />
                     <div className="lm-main-content">
                     <h2>Laurel, Mississippi</h2>
 

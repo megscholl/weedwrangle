@@ -45,7 +45,7 @@ class Dallas extends Component {
                         </div>
 
                         
-                        <img src={GC} alt="Groundwork Dallas"  width="20%" className="lm-img-3" />
+                        <img src={GC} alt="Groundwork Dallas"  width="20%" className="lm-img-5" />
                     <div className="lm-main-content">
        
                         <h2>Garden Club of Dallas</h2>
@@ -53,12 +53,6 @@ class Dallas extends Component {
                          
                         <p>Today, new members as well as fourth generation members continue in our charter member’s vision to conserve, protect , preserve, educate, beautify, and serve as Dallas’ civic leaders for a more beautiful and sustainable world for tomorrow...</p>
 
-                    </div>
-
-                    
-                    <div className="images">
-                    <img src={Wranglers} alt="Wranglers at Weed Wrangle" width="500px"/>
-                    <img src={Ladies} alt="Dallas Ladies Posing at Weed Wrangle Event" width="500px"/>
                     </div>
 
             </div>

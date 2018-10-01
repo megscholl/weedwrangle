@@ -98,7 +98,7 @@ h3 {
 .cards:hover {
     /* position: relative; */
     border: 3px solid rgb(31, 139, 31);
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 
@@ -124,6 +124,15 @@ h3 {
     margin-left: auto;
 }
 
+
+.images-la {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 2rem auto 5rem auto;
+    text-align: center;
+    height: 300px;
+}
 
 
 h3 {

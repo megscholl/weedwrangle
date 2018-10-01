@@ -19,7 +19,7 @@ class Jackson extends Component {
                     </div>
 
                         
-                    <img src={Ladies} alt="Jackson Garden Club" width="35%" className="lm-img-2" />
+                    <img src={Ladies} alt="Jackson Garden Club" width="35%" className="lm-img-4" />
                     <div className="lm-main-content">
                     <h2>Garden Club of Jackson, Mississippi</h2>
                             <p>Mississippi landscapes are encountering growing threats from some non-native plants. Invasive plants introduced in this region decades ago for agricultural or landscaping purposes are now a serious concern for our parks, our public green spaces and our own backyards Along with a warming climate and longer growing seasons, experts warn this city’s beautiful native trees, plants and wildlife are losing the fight against these aggressive plants, vines, trees and insects. These non-indigenous plants and insects consume nutrients, disrupt the ecological balance and disfigure the outdoor world where Mississippians hike, bike, have picnics and just enjoy. While some invasive plants are quite beautiful with colorful flowers and pleasing scents, they are still quietly lethal to native species If left unchecked, future generations of native plants might never glimpse the forest floor as alien growth shrouds the sun and takes nutrients away from our native trees and plants.</p>
