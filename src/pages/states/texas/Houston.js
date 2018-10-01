@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 //PHOTOGRAPHY
 import HoustonLogo from './houston-logo.PNG'
-import Dig from './houston-digging.PNG'
-import Ladies from './houston-ladies.PNG'
+// import Dig from './houston-digging.PNG'
+// import Ladies from './houston-ladies.PNG'
 import Weeds from './houston-weeds.PNG'
 
 import Parks from './houston-parks.jpeg'
