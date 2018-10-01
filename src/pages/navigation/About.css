@@ -1,7 +1,7 @@
 .images {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
