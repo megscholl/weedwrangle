@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 
 import Laurel1 from './laurel.PNG'
 // import Wranglers from './Wranglers.PNG'
-import GGC from './ggc.PNG'
+// import GGC from './ggc.PNG'
 import LaurelImg from './laurel.jpg'
 
 import './StateLocations.css'

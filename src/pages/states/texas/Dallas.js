@@ -5,8 +5,8 @@ import DallasLogo from './dallas-logo.PNG'
 import Yellow from './yellow-dallas.PNG'
 import Groundwork from './groundwork.png'
 import GC from './dallas-gc.PNG'
-import Ladies from './ladies-dallas.PNG'
-import Wranglers from './Wranglers.PNG'
+// import Ladies from './ladies-dallas.PNG'
+// import Wranglers from './Wranglers.PNG'
 
 
 import './StateLocations.css'
