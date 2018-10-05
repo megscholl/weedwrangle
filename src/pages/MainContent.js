@@ -23,7 +23,7 @@ class MainContent extends Component {
 
                     <br />
 
-                    <a href={Host} download="HostInformation" className="join-link">Join Us by Hosting a Weed Wrangle!</a><br/>
+                    <a href={Host} download="HostInformation" className="main-join-link">Join Us by Hosting a Weed Wrangle!</a><br/>
                 </div>
 
 

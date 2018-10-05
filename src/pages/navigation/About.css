@@ -8,13 +8,19 @@
     height: 300px;
 }
 
-.middle-img {
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
-}
-
-
 h1 {
     padding-top: 1rem;
     text-align: center;
+}
+
+h3 {
+    text-align: left;
+    /* margin-left: 15rem; */
+    color: #065D1F;
+}
+
+.about-para {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }

@@ -1,38 +1,92 @@
-.absolute-footer {
-
-    /* position:absolute; */
-    display: inline-block;
-   /* bottom:0; */
-    width:100%;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400');
 
 .footer {
-
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    margin-top: 2rem;
-    padding-top: 3rem;
-    background-color: #D2E4D3;
-    padding-bottom: 1rem;
+    position: absolute;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+    background-color: rgb(2, 26, 2);
+    height: 220px;
+    width: 100%;
+    color: white;
+    padding-top: 2rem;
+    /* text-transform: uppercase; */
 }
 
-.gca-image {
+.footer-h1 {
+    color: rgb(147, 161, 148);
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: rgb(163, 226, 144);
+}
+.footer a:visited {
+    color: rgb(214, 156, 68);
+}
+
+.footer-links {
+    margin-left: 20%;
+}
+.footer-links li {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 25px;
+    list-style-type: none;
+}
+
+.reg {
+    font-size: 16px;
+}
+
+.hr {
     width: 100px;
-    float: right;
-    margin-right: 30rem;
-    /* margin-bottom: 3rem; */
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.footer-p1 {
-    text-align: left;
-    margin-left: 30rem;
-    width: 350px;
+.design {
+    margin-top: 1rem;
     font-size: 10px;
-    margin-top: .3rem;
+    color: pink;
+    /* float: right; */
+    text-align: center;
+}
+.copy {
+    /* font-size: px; */
 }
 
-.rh-logo {
-    float: right;
-    width: 200px;
-}
+
+
+                        /* MEDIA QUERIES */
+    
+                        /* CELLULAR */
+
+            @media (max-width: 450px) { 
+
+            }
+
+
+
+                        /* TABLET */
+
+            @media (max-width: 770px) { 
+
+            }
+
+
+            @media (max-width: 1100px) { 
+
+            }
+
+
+                        /* LARGE SCREENS */
+
+            @media (max-width: 12450px) { 
+
+            }

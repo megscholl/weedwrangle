@@ -1,15 +1,29 @@
 import React, { Component } from "react";
-import GCA from '../images/weedwrangle/GCA-Logo.png'
+// import GCA from '../images/weedwrangle/GCA-Logo.png'
 import './Footer.css'
+
+// LINKS
+import Host from '../images/Project_Info.pdf'
+
 
 class Footer extends Component {
     render() {
       return (
-        <div className="absolute-footer footer">
+        <div className="footer">
+        <h1 className="footer-h1">WEED WRANGLE<sup className="reg">&reg;</sup></h1>
 
-        <img src={GCA} alt="Garden Club of America" className="gca-image"/>
+          <ul className="footer-links">
+            <li><a href={Host} title="Become a Weed Wrangle Event Host" alt="Host a Weed Wrangle Event in Your City" target="_blank">Sign up to host a Weed Wrangle&reg; in Your City</a></li>
+            <hr className="hr" />
+            <li><a href="http://www.instagram.com/weedwrangle" alt="Weed Wrangle Instagram" title="Weed Wrangle Instagram" >Follow Us on Instagram</a></li>
+            <hr className="hr" />
+            <li><a href="mailto:info@weedwrangle.org" alt="Email us" title="email us">Email us for more information</a></li>
+          </ul>
 
-        <p className="footer-p1">The Weed Wrangle&reg; started by The Garden Club of Nashville in 2015, expanded to the Knoxville Garden Club, Garden Club of Lookout Mountain, Memphis Garden Club, The Little Garden Club of Memphis, and The Garden Club of Jackson, MS in 2016. All clubs are members of The Garden Club of America and participants in the GCA Partners for Plants program.</p>
+          <div className="design">
+          Website Design and Development by <a href="mailto:redhood.dev.design@gmail.com">Redhood Designs<sup className="copy">&copy;</sup></a>
+          </div>
+
         </div>
      )
     }
