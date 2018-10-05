@@ -14,7 +14,7 @@ h1 {
     color: #065D1F;
     font-size: 40px;
     /* font-weight: 800; */
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 h2 {
@@ -39,11 +39,12 @@ h2 {
     margin-bottom: 2rem;
 }
 
-.join-link {
+.-main-join-link {
+    /* margin-left: -2rem; */
     font-size: 22px;
-    color: #065D1F;
+    color: rgb(12, 94, 35);
 }
 
-.join-link:hover {
+.main-join-link:hover {
     color: green;
 }
